@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+   background-color:whitesmoke;
+}
+main{
+    padding: 50px;
+    max-width: 1280px;
+    display: grid;
+  grid-template-columns: 55% 45%;
+    margin: auto;
+position: relative;
+padding-top: 200px;
+
+
+    
+}
+.explaining{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.explaining .estrella{
+    background-color: rgba(224, 215, 200, 0.973);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 34px;
+    font-weight: 550;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width:1100px){
+    main{
+        display: flex;
+     flex-direction: column;
+       
+    }
+    .explaining{
+         margin-bottom: 50px;
+         width: 100%;
+    }
+    .reviews{
+        width: 100%;
+    }
+
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+p{
+    color: rgba(87, 82, 82, 0.863);
+    max-width: 85%;
+    font-size: 22px;
+    font-weight: 550;
+}
+.primera{
+    max-width: 300px;
+    
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(128, 128, 128, 0.534);
+    padding: 20px;
+    background-color: white;
+     
+     position: absolute;
+     right: 50px;
+}
+.primera img{
+    width: 40%;
+    margin-right:15px ;
+}
+.reviews{
+   width: 100%;
+   
+}
+.segunda{
+    
+    background-color: white;
+    max-width: 300px;   
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(128, 128, 128, 0.534);
+    padding: 20px;   
+     margin: 5px;
+     position: absolute;
+     margin-top: 200px;
+}
+.segunda img{
+    width: 40%;
+    margin-right:15px ;
+}
